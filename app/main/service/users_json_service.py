@@ -121,3 +121,20 @@ def delete_user(id):
     save_users(all_data)
 
     return "", 204
+
+
+def get_search_result(q):
+    all_data = load_all_data()
+    search_results = [user_data for user_data in all_data['users'].values() if any(
+        q.lower() in field_value.lower() for field_value in [
+            user_data['first_name'],
+            user_data['last_name'],
+            user_data['company'],
+            user_data['contact']['phone'],
+            user_data['contact']['address'],
+            user_data['contact']['city'],
+            user_data['contact']['country'],
+            user_data['role']['name']
+        ]
+    )]
+    return search_results, 200

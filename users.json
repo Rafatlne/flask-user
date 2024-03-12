@@ -333,7 +333,10 @@
             "company": "Bailey-Williams",
             "sex": "F",
             "id": 12,
-            "role": null,
+            "role": {
+                "id": 1,
+                "name": "ADMIN"
+            },
             "contact": {
                 "id": 12,
                 "phone": "1111",
