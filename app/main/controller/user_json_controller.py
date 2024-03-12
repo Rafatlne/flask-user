@@ -9,6 +9,7 @@ from ..service.users_json_service import (
     update_user,
     delete_user,
     create_user,
+    get_search_result,
 )
 from ..util.auth import token_auth
 
@@ -69,7 +70,6 @@ user_model = api.model(
     },
 )
 
-
 user_post_model = api.model(
     "JsonUserPostModel",
     {
@@ -96,9 +96,18 @@ user_post_model = api.model(
     },
 )
 
+search_model = api.model(
+    "SearchModel",
+    {
+        "query": fields.String(
+            required=True, description="Search query", example="Any text"
+        )
+    },
+)
+
 
 @api.route("/")
-class UserList(Resource):
+class JsonUserList(Resource):
     @token_auth.login_required
     @api.doc("list_users")
     @api.response(200, "Success", [user_model])
@@ -125,7 +134,7 @@ class UserList(Resource):
 
 @api.route("/<int:id>/")
 @api.param("id", "The user identifier")
-class User(Resource):
+class JsonUser(Resource):
     @api.doc("get_user")
     @api.response(200, "Success", user_model)
     @api.response(404, "User not found")
@@ -157,3 +166,26 @@ class User(Resource):
     def delete(self, id):
         """Delete a user by ID from JSON file"""
         return delete_user(id)
+
+
+@api.route("/search/")
+class SearchUsers(Resource):
+    @api.doc(
+        params={
+            "query": {
+                "description": "Search users by query",
+                "type": "string",
+                "default": "Manager",
+            }
+        }
+    )
+    @token_auth.login_required
+    @api.response(200, "Success", [user_model])
+    @api.response(400, "Please provide a search query")
+    def get(self):
+        """Search users based on the provided query."""
+        query = request.args.get("query")
+        if query:
+            return get_search_result(query)
+
+        return {"message": "Please provide a search query"}, 400
