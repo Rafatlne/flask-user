@@ -1,245 +1,290 @@
 {
-    "contacts": {
-        "68": {
-            "id": 68,
-            "phone": "4519275141",
-            "address": "PSC 4480, Box 8195\nAPO AA 60581",
-            "city": "Stephaniemouth",
-            "country": "Hong Kong"
+    "contacts": [
+        {
+            "id": 1,
+            "phone": "+1-793-284",
+            "address": "02712 Aaron Garden Suite 539\nLake Michaelland, UT 71241",
+            "city": "North Jennifer",
+            "country": "Ecuador"
         },
-        "69": {
-            "id": 69,
-            "phone": "001-492-23",
-            "address": "8297 Zimmerman Oval Apt. 299\nHarveyport, NM 41069",
-            "city": "Joshuaborough",
-            "country": "Pakistan"
+        {
+            "id": 2,
+            "phone": "(338)610-1",
+            "address": "5134 Flores Prairie\nEast Catherine, LA 30607",
+            "city": "Katiechester",
+            "country": "Saint Martin"
         },
-        "70": {
-            "id": 70,
-            "phone": "001-822-63",
-            "address": "4966 Robinson Pines Suite 703\nAlexistown, KY 99891",
-            "city": "Benjaminfurt",
-            "country": "Lesotho"
+        {
+            "id": 3,
+            "phone": "(693)217-6",
+            "address": "6146 Chloe Avenue\nPort Josephmouth, SC 03274",
+            "city": "Beltranberg",
+            "country": "Latvia"
         },
-        "71": {
-            "id": 71,
-            "phone": "+1-990-490",
-            "address": "209 Hoffman Ranch\nLake Steven, IA 55237",
-            "city": "Susanmouth",
-            "country": "United States Minor Outlying Islands"
+        {
+            "id": 4,
+            "phone": "001-253-71",
+            "address": "USNS Morrison\nFPO AA 89425",
+            "city": "Leonside",
+            "country": "Uzbekistan"
         },
-        "72": {
-            "id": 72,
-            "phone": "1adad",
-            "address": "1ddd1adadadad",
-            "city": "ddd1adad",
-            "country": "111adad"
+        {
+            "id": 5,
+            "phone": "539-711-62",
+            "address": "3283 Solis Stream Suite 453\nNew Kevin, VI 85219",
+            "city": "Santiagobury",
+            "country": "Brazil"
         },
-        "73": {
-            "id": 73,
-            "phone": "+1-717-981",
-            "address": "163 Flores Islands\nSabrinashire, GU 61447",
-            "city": "South Angel",
-            "country": "Kuwait"
+        {
+            "id": 6,
+            "phone": "(331)235-6",
+            "address": "849 Palmer Route Apt. 221\nAshleychester, RI 48409",
+            "city": "Leeland",
+            "country": "Burkina Faso"
         },
-        "74": {
-            "id": 74,
-            "phone": "(284)908-3",
-            "address": "3918 Brittany Ramp\nStanleyton, MD 16452",
-            "city": "New John",
-            "country": "Iceland"
+        {
+            "id": 7,
+            "phone": "(572)322-9",
+            "address": "3870 Herman Flats Suite 744\nLake Barbara, PA 18657",
+            "city": "Thomasmouth",
+            "country": "Switzerland"
         },
-        "75": {
-            "id": 75,
-            "phone": "(478)221-2",
-            "address": "83261 Farmer Passage\nTracyport, WI 38795",
-            "city": "East Ginaville",
-            "country": "Israel"
+        {
+            "id": 8,
+            "phone": "(245)201-1",
+            "address": "17584 Daniels Center Suite 262\nStaceyville, MN 06580",
+            "city": "North Anthony",
+            "country": "Nigeria"
         },
-        "76": {
-            "id": 76,
-            "phone": "979-219-58",
-            "address": "3857 Jessica Ports Apt. 071\nNew Richardshire, TX 44260",
-            "city": "Sharonberg",
-            "country": "Colombia"
+        {
+            "id": 9,
+            "phone": "001-757-96",
+            "address": "21384 Banks Crescent Apt. 146\nEast Sethmouth, UT 16182",
+            "city": "New Janetstad",
+            "country": "Slovenia"
         },
-        "78": {
-            "id": 78,
-            "phone": "1111",
-            "address": "111",
-            "city": "111",
-            "country": "111"
-        },
-        "79": {
-            "id": 79,
-            "phone": "1111",
-            "address": "111",
-            "city": "111",
-            "country": "111"
+        {
+            "id": 10,
+            "phone": "464-612-32",
+            "address": "807 Brian Mountains Apt. 832\nAllenburgh, GA 78837",
+            "city": "South Shanemouth",
+            "country": "Rwanda"
         }
-    },
-    "roles": {
-        "61": {
-            "id": 61,
-            "name": "Teacher, adult education"
+    ],
+    "roles": [
+        {
+            "id": 1,
+            "name": "ADMIN"
         },
-        "62": {
-            "id": 62,
-            "name": "Psychotherapist, child"
+        {
+            "id": 2,
+            "name": "MANAGER"
         },
-        "63": {
-            "id": 63,
-            "name": "Surveyor, insurance"
-        },
-        "64": {
-            "id": 64,
-            "name": "Surveyor, mining"
-        },
-        "65": {
-            "id": 65,
-            "name": "Surveyor, planning and development"
-        },
-        "66": {
-            "id": 66,
-            "name": "Geophysical data processor"
-        },
-        "67": {
-            "id": 67,
-            "name": "Plant breeder/geneticist"
-        },
-        "68": {
-            "id": 68,
-            "name": "Insurance account manager"
-        },
-        "69": {
-            "id": 69,
-            "name": "Designer, multimedia"
-        },
-        "70": {
-            "id": 70,
-            "name": "Diplomatic Services operational officer"
+        {
+            "id": 3,
+            "name": "CUSTOMER"
         }
-    },
-    "users": {
-        "67": {
-            "id": 67,
-            "first_name": "Robert",
-            "last_name": "Stephens",
+    ],
+    "users": [
+        {
+            "id": 1,
+            "first_name": "Megan",
+            "last_name": "Lane",
             "active": true,
-            "company": "Copeland, Peters and Ritter",
-            "sex": "M",
-            "contact": 73,
-            "role": 64
-        },
-        "68": {
-            "id": 68,
-            "first_name": "Maurice",
-            "last_name": "Mayer",
-            "active": true,
-            "company": "Reeves-Hill",
-            "sex": "M",
-            "contact": 68,
-            "role": 65
-        },
-        "69": {
-            "id": 69,
-            "first_name": "Darrell",
-            "last_name": "Evans",
-            "active": true,
-            "company": "Hines and Sons",
+            "company": "Martin, Cameron and Dixon",
             "sex": "F",
-            "contact": 74,
-            "role": 67
+            "contact": {
+                "id": 8,
+                "phone": "(245)201-1",
+                "address": "17584 Daniels Center Suite 262\nStaceyville, MN 06580",
+                "city": "North Anthony",
+                "country": "Nigeria"
+            },
+            "role": {
+                "id": 2,
+                "name": "MANAGER"
+            },
+            "username": "0epMhjkSNupls9n"
         },
-        "70": {
-            "id": 70,
-            "first_name": "Nancy",
-            "last_name": "Kelly",
+        {
+            "id": 2,
+            "first_name": "Erica",
+            "last_name": "Medina",
             "active": false,
-            "company": "Wilson-Velazquez",
+            "company": "Phillips PLC",
             "sex": "M",
-            "contact": 73,
-            "role": 69
+            "contact": {
+                "id": 1,
+                "phone": "+1-793-284",
+                "address": "02712 Aaron Garden Suite 539\nLake Michaelland, UT 71241",
+                "city": "North Jennifer",
+                "country": "Ecuador"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "ysWGxGxSkfKcn7Z"
         },
-        "71": {
-            "id": 71,
-            "first_name": "Lance",
-            "last_name": "Wallace",
+        {
+            "id": 3,
+            "first_name": "Andrew",
+            "last_name": "Contreras",
             "active": false,
-            "company": "Valdez PLC",
+            "company": "Maynard, Franklin and Garcia",
+            "sex": "F",
+            "contact": {
+                "id": 5,
+                "phone": "539-711-62",
+                "address": "3283 Solis Stream Suite 453\nNew Kevin, VI 85219",
+                "city": "Santiagobury",
+                "country": "Brazil"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "WVgidbqdVGQO7yR"
+        },
+        {
+            "id": 4,
+            "first_name": "Tara",
+            "last_name": "Holmes",
+            "active": true,
+            "company": "Ryan, Hickman and Nelson",
+            "sex": "F",
+            "contact": {
+                "id": 6,
+                "phone": "(331)235-6",
+                "address": "849 Palmer Route Apt. 221\nAshleychester, RI 48409",
+                "city": "Leeland",
+                "country": "Burkina Faso"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "CAt8tgn2MdU3ED0"
+        },
+        {
+            "id": 5,
+            "first_name": "Caitlyn",
+            "last_name": "Jimenez",
+            "active": false,
+            "company": "Mcclure, Ingram and Sampson",
             "sex": "M",
-            "contact": 74,
-            "role": 65
+            "contact": {
+                "id": 3,
+                "phone": "(693)217-6",
+                "address": "6146 Chloe Avenue\nPort Josephmouth, SC 03274",
+                "city": "Beltranberg",
+                "country": "Latvia"
+            },
+            "role": {
+                "id": 2,
+                "name": "MANAGER"
+            },
+            "username": "Mu6wPVa900aEvd4"
         },
-        "72": {
-            "id": 72,
-            "first_name": "Nichole",
-            "last_name": "Klein",
+        {
+            "id": 6,
+            "first_name": "Denise",
+            "last_name": "Gross",
             "active": true,
-            "company": "Miller-Holmes",
+            "company": "Davis-Perez",
             "sex": "F",
-            "contact": 75,
-            "role": 66
+            "contact": {
+                "id": 5,
+                "phone": "539-711-62",
+                "address": "3283 Solis Stream Suite 453\nNew Kevin, VI 85219",
+                "city": "Santiagobury",
+                "country": "Brazil"
+            },
+            "role": {
+                "id": 1,
+                "name": "ADMIN"
+            },
+            "username": "9b0qw9BTiEhXQvh"
         },
-        "73": {
-            "id": 73,
-            "first_name": "Brett",
-            "last_name": "Rogers",
+        {
+            "id": 7,
+            "first_name": "Kevin",
+            "last_name": "Townsend",
             "active": true,
-            "company": "King Group",
+            "company": "Smith-Martinez",
             "sex": "F",
-            "contact": 76,
-            "role": 69
+            "contact": {
+                "id": 3,
+                "phone": "(693)217-6",
+                "address": "6146 Chloe Avenue\nPort Josephmouth, SC 03274",
+                "city": "Beltranberg",
+                "country": "Latvia"
+            },
+            "role": {
+                "id": 2,
+                "name": "MANAGER"
+            },
+            "username": "cPaACsNljyNBsgD"
         },
-        "74": {
-            "id": 74,
-            "first_name": "Breanna",
-            "last_name": "Gardner",
+        {
+            "id": 8,
+            "first_name": "Heather",
+            "last_name": "Rivas",
             "active": false,
-            "company": "Black PLC",
-            "sex": "F",
-            "contact": 72,
-            "role": 65
+            "company": "Estrada, Young and Potts",
+            "sex": "M",
+            "contact": {
+                "id": 7,
+                "phone": "(572)322-9",
+                "address": "3870 Herman Flats Suite 744\nLake Barbara, PA 18657",
+                "city": "Thomasmouth",
+                "country": "Switzerland"
+            },
+            "role": {
+                "id": 1,
+                "name": "ADMIN"
+            },
+            "username": "CxavtLdTKTx5WqO"
         },
-        "75": {
-            "id": 75,
+        {
+            "id": 9,
+            "first_name": "Cheryl",
+            "last_name": "Olson",
+            "active": true,
+            "company": "Davis-Mclaughlin",
+            "sex": "M",
+            "contact": {
+                "id": 9,
+                "phone": "001-757-96",
+                "address": "21384 Banks Crescent Apt. 146\nEast Sethmouth, UT 16182",
+                "city": "New Janetstad",
+                "country": "Slovenia"
+            },
+            "role": {
+                "id": 2,
+                "name": "MANAGER"
+            },
+            "username": "0Qv0NyYmbXyYd1K"
+        },
+        {
+            "id": 10,
             "first_name": "Angela",
-            "last_name": "Bailey",
+            "last_name": "Wagner",
             "active": true,
-            "company": "Oliver-Chen",
+            "company": "Sanchez Group",
             "sex": "M",
-            "contact": 71,
-            "role": 61
-        },
-        "77": {
-            "first_name": "asda",
-            "last_name": "rafat",
-            "active": false,
-            "company": "Bailey-Williams",
-            "sex": "F",
-            "id": 77,
-            "role": 69,
-            "contact": 77
-        },
-        "78": {
-            "first_name": "asda",
-            "last_name": "rafat",
-            "active": false,
-            "company": "Bailey-Williams",
-            "sex": "F",
-            "id": 78,
-            "role": 69,
-            "contact": 78
-        },
-        "79": {
-            "first_name": "asda",
-            "last_name": "rafat",
-            "active": false,
-            "company": "Bailey-Williams",
-            "sex": "F",
-            "id": 79,
-            "role": 69,
-            "contact": 79
+            "contact": {
+                "id": 10,
+                "phone": "464-612-32",
+                "address": "807 Brian Mountains Apt. 832\nAllenburgh, GA 78837",
+                "city": "South Shanemouth",
+                "country": "Rwanda"
+            },
+            "role": {
+                "id": 1,
+                "name": "ADMIN"
+            },
+            "username": "Gl4bVlLfpK3OMVn"
         }
-    }
+    ]
 }

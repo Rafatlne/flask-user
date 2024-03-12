@@ -57,6 +57,22 @@ class UserInfo(UserMixin, db.Model):
             return None
         return user
 
+    def to_dict(self):
+        try:
+            return {
+                "id": self.id,
+                "first_name": self.first_name,
+                "last_name": self.last_name,
+                "active": self.active,
+                "company": self.company,
+                "sex": self.sex,
+                "contact": self.contact.to_dict() if self.contact else None,
+                "role": self.role.to_dict() if self.role else None,
+                "username": self.username,
+            }
+        except AttributeError:
+            return {}
+
 
 class Contact(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -66,8 +82,29 @@ class Contact(db.Model):
     country = db.Column(db.String(50))
     user_infos_contact = relationship("UserInfo", back_populates="contact")
 
+    def to_dict(self):
+        try:
+            return {
+                "id": self.id,
+                "phone": self.phone,
+                "address": self.address,
+                "city": self.city,
+                "country": self.country,
+            }
+        except AttributeError:
+            return {}
+
 
 class Role(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50))
     user_infos_role = relationship("UserInfo", back_populates="role")
+
+    def to_dict(self):
+        try:
+            return {
+                "id": self.id,
+                "name": self.name,
+            }
+        except AttributeError:
+            return {}
