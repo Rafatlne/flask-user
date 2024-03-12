@@ -1,0 +1,245 @@
+{
+    "contacts": {
+        "68": {
+            "id": 68,
+            "phone": "4519275141",
+            "address": "PSC 4480, Box 8195\nAPO AA 60581",
+            "city": "Stephaniemouth",
+            "country": "Hong Kong"
+        },
+        "69": {
+            "id": 69,
+            "phone": "001-492-23",
+            "address": "8297 Zimmerman Oval Apt. 299\nHarveyport, NM 41069",
+            "city": "Joshuaborough",
+            "country": "Pakistan"
+        },
+        "70": {
+            "id": 70,
+            "phone": "001-822-63",
+            "address": "4966 Robinson Pines Suite 703\nAlexistown, KY 99891",
+            "city": "Benjaminfurt",
+            "country": "Lesotho"
+        },
+        "71": {
+            "id": 71,
+            "phone": "+1-990-490",
+            "address": "209 Hoffman Ranch\nLake Steven, IA 55237",
+            "city": "Susanmouth",
+            "country": "United States Minor Outlying Islands"
+        },
+        "72": {
+            "id": 72,
+            "phone": "1adad",
+            "address": "1ddd1adadadad",
+            "city": "ddd1adad",
+            "country": "111adad"
+        },
+        "73": {
+            "id": 73,
+            "phone": "+1-717-981",
+            "address": "163 Flores Islands\nSabrinashire, GU 61447",
+            "city": "South Angel",
+            "country": "Kuwait"
+        },
+        "74": {
+            "id": 74,
+            "phone": "(284)908-3",
+            "address": "3918 Brittany Ramp\nStanleyton, MD 16452",
+            "city": "New John",
+            "country": "Iceland"
+        },
+        "75": {
+            "id": 75,
+            "phone": "(478)221-2",
+            "address": "83261 Farmer Passage\nTracyport, WI 38795",
+            "city": "East Ginaville",
+            "country": "Israel"
+        },
+        "76": {
+            "id": 76,
+            "phone": "979-219-58",
+            "address": "3857 Jessica Ports Apt. 071\nNew Richardshire, TX 44260",
+            "city": "Sharonberg",
+            "country": "Colombia"
+        },
+        "78": {
+            "id": 78,
+            "phone": "1111",
+            "address": "111",
+            "city": "111",
+            "country": "111"
+        },
+        "79": {
+            "id": 79,
+            "phone": "1111",
+            "address": "111",
+            "city": "111",
+            "country": "111"
+        }
+    },
+    "roles": {
+        "61": {
+            "id": 61,
+            "name": "Teacher, adult education"
+        },
+        "62": {
+            "id": 62,
+            "name": "Psychotherapist, child"
+        },
+        "63": {
+            "id": 63,
+            "name": "Surveyor, insurance"
+        },
+        "64": {
+            "id": 64,
+            "name": "Surveyor, mining"
+        },
+        "65": {
+            "id": 65,
+            "name": "Surveyor, planning and development"
+        },
+        "66": {
+            "id": 66,
+            "name": "Geophysical data processor"
+        },
+        "67": {
+            "id": 67,
+            "name": "Plant breeder/geneticist"
+        },
+        "68": {
+            "id": 68,
+            "name": "Insurance account manager"
+        },
+        "69": {
+            "id": 69,
+            "name": "Designer, multimedia"
+        },
+        "70": {
+            "id": 70,
+            "name": "Diplomatic Services operational officer"
+        }
+    },
+    "users": {
+        "67": {
+            "id": 67,
+            "first_name": "Robert",
+            "last_name": "Stephens",
+            "active": true,
+            "company": "Copeland, Peters and Ritter",
+            "sex": "M",
+            "contact": 73,
+            "role": 64
+        },
+        "68": {
+            "id": 68,
+            "first_name": "Maurice",
+            "last_name": "Mayer",
+            "active": true,
+            "company": "Reeves-Hill",
+            "sex": "M",
+            "contact": 68,
+            "role": 65
+        },
+        "69": {
+            "id": 69,
+            "first_name": "Darrell",
+            "last_name": "Evans",
+            "active": true,
+            "company": "Hines and Sons",
+            "sex": "F",
+            "contact": 74,
+            "role": 67
+        },
+        "70": {
+            "id": 70,
+            "first_name": "Nancy",
+            "last_name": "Kelly",
+            "active": false,
+            "company": "Wilson-Velazquez",
+            "sex": "M",
+            "contact": 73,
+            "role": 69
+        },
+        "71": {
+            "id": 71,
+            "first_name": "Lance",
+            "last_name": "Wallace",
+            "active": false,
+            "company": "Valdez PLC",
+            "sex": "M",
+            "contact": 74,
+            "role": 65
+        },
+        "72": {
+            "id": 72,
+            "first_name": "Nichole",
+            "last_name": "Klein",
+            "active": true,
+            "company": "Miller-Holmes",
+            "sex": "F",
+            "contact": 75,
+            "role": 66
+        },
+        "73": {
+            "id": 73,
+            "first_name": "Brett",
+            "last_name": "Rogers",
+            "active": true,
+            "company": "King Group",
+            "sex": "F",
+            "contact": 76,
+            "role": 69
+        },
+        "74": {
+            "id": 74,
+            "first_name": "Breanna",
+            "last_name": "Gardner",
+            "active": false,
+            "company": "Black PLC",
+            "sex": "F",
+            "contact": 72,
+            "role": 65
+        },
+        "75": {
+            "id": 75,
+            "first_name": "Angela",
+            "last_name": "Bailey",
+            "active": true,
+            "company": "Oliver-Chen",
+            "sex": "M",
+            "contact": 71,
+            "role": 61
+        },
+        "77": {
+            "first_name": "asda",
+            "last_name": "rafat",
+            "active": false,
+            "company": "Bailey-Williams",
+            "sex": "F",
+            "id": 77,
+            "role": 69,
+            "contact": 77
+        },
+        "78": {
+            "first_name": "asda",
+            "last_name": "rafat",
+            "active": false,
+            "company": "Bailey-Williams",
+            "sex": "F",
+            "id": 78,
+            "role": 69,
+            "contact": 78
+        },
+        "79": {
+            "first_name": "asda",
+            "last_name": "rafat",
+            "active": false,
+            "company": "Bailey-Williams",
+            "sex": "F",
+            "id": 79,
+            "role": 69,
+            "contact": 79
+        }
+    }
+}

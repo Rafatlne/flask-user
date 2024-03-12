@@ -1,0 +1,32 @@
+.venv/
+env/
+venv/
+
+# Ignore IDE or editor specific files
+.idea/
+.vscode/
+*.swp
+
+# Ignore test coverage reports
+.coverage
+
+# Ignore compiled Python bytecode
+*.pyc
+
+# Ignore any local configuration files
+.flaskenv
+
+# Ignore database files (adjust based on your setup)
+# If using a volume, you don't need to ignore these
+*.db
+*.sql
+*.sqlite
+
+# Ignore static files if served separately (adjust based on your setup)
+static/
+templates/
+
+# Ignore any build artifacts
+build/
+dist/
+htmlcov/

@@ -1,0 +1,58 @@
+
+version: "3.9"
+
+services:
+  web:
+    build: .
+    ports:
+      - "8010:8010"
+    environment:
+      - FLASK_APP=manage.py
+      - CONFIG_ENV=dev
+      - FLASK_RUN_PORT=8010
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+#    volumes:
+#      - .:/app  # Mount your application directory as a volume
+    depends_on:
+      - db
+    networks:
+      - mynetwork
+
+  db:
+    image: postgres:14-alpine
+    environment:
+      - POSTGRES_DB=flask_user
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    networks:
+      - mynetwork
+
+#  elasticsearch:
+#    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
+#    container_name: elasticsearch
+#    environment:
+#      - NODE_NAME=elasticsearch
+#      - cluster.name=my-es-cluster
+#      - bootstrap.memory_lock=true
+#      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+#      - discovery.type=single-node
+#      - xpack.security.enabled=false
+#    ulimits:
+#      memlock:
+#        soft: -1
+#        hard: -1
+#    volumes:
+#      - esdata01:/usr/share/elasticsearch/data
+#    ports:
+#      - 9200:9200
+#    networks:
+#      - mynetwork
+networks:
+  mynetwork:
+    driver: bridge
+volumes:
+  postgres_data: {}
+  esdata01: {}
