@@ -1,290 +1,358 @@
 {
-    "contacts": [
-        {
+    "contacts": {
+        "1": {
             "id": 1,
-            "phone": "+1-793-284",
-            "address": "02712 Aaron Garden Suite 539\nLake Michaelland, UT 71241",
-            "city": "North Jennifer",
-            "country": "Ecuador"
+            "phone": "873.666.63",
+            "address": "362 Charles Spurs Apt. 838\nSouth James, WI 60696",
+            "city": "West Stephenmouth",
+            "country": "Israel"
         },
-        {
+        "2": {
             "id": 2,
-            "phone": "(338)610-1",
-            "address": "5134 Flores Prairie\nEast Catherine, LA 30607",
-            "city": "Katiechester",
-            "country": "Saint Martin"
+            "phone": "315-275-39",
+            "address": "1732 Waller Oval Apt. 888\nJonestown, DE 41712",
+            "city": "Emilyville",
+            "country": "Albania"
         },
-        {
+        "3": {
             "id": 3,
-            "phone": "(693)217-6",
-            "address": "6146 Chloe Avenue\nPort Josephmouth, SC 03274",
-            "city": "Beltranberg",
-            "country": "Latvia"
+            "phone": "001-710-80",
+            "address": "20053 Marissa Port Suite 288\nPort Danielle, AR 16341",
+            "city": "South Donna",
+            "country": "Paraguay"
         },
-        {
+        "4": {
             "id": 4,
-            "phone": "001-253-71",
-            "address": "USNS Morrison\nFPO AA 89425",
-            "city": "Leonside",
-            "country": "Uzbekistan"
+            "phone": "001-464-23",
+            "address": "106 Aaron Alley Apt. 371\nDylanmouth, PW 90474",
+            "city": "East Melissa",
+            "country": "French Southern Territories"
         },
-        {
+        "5": {
             "id": 5,
-            "phone": "539-711-62",
-            "address": "3283 Solis Stream Suite 453\nNew Kevin, VI 85219",
-            "city": "Santiagobury",
-            "country": "Brazil"
+            "phone": "(985)371-6",
+            "address": "692 Ali Forge Suite 747\nJarvisbury, NV 70728",
+            "city": "North Alexandermouth",
+            "country": "Niue"
         },
-        {
+        "6": {
             "id": 6,
-            "phone": "(331)235-6",
-            "address": "849 Palmer Route Apt. 221\nAshleychester, RI 48409",
-            "city": "Leeland",
-            "country": "Burkina Faso"
+            "phone": "697-711-07",
+            "address": "86806 Miller Centers\nNorth Johnfurt, SD 73390",
+            "city": "Kellychester",
+            "country": "Peru"
         },
-        {
+        "7": {
             "id": 7,
-            "phone": "(572)322-9",
-            "address": "3870 Herman Flats Suite 744\nLake Barbara, PA 18657",
-            "city": "Thomasmouth",
-            "country": "Switzerland"
+            "phone": "(316)605-6",
+            "address": "0823 Brown Valley\nWest Joeburgh, WY 25560",
+            "city": "Veronicabury",
+            "country": "Christmas Island"
         },
-        {
+        "8": {
             "id": 8,
-            "phone": "(245)201-1",
-            "address": "17584 Daniels Center Suite 262\nStaceyville, MN 06580",
-            "city": "North Anthony",
-            "country": "Nigeria"
+            "phone": "(805)320-7",
+            "address": "378 Scott Causeway\nEast Nicholashaven, UT 77984",
+            "city": "South Jill",
+            "country": "Guam"
         },
-        {
+        "9": {
             "id": 9,
-            "phone": "001-757-96",
-            "address": "21384 Banks Crescent Apt. 146\nEast Sethmouth, UT 16182",
-            "city": "New Janetstad",
-            "country": "Slovenia"
+            "phone": "+1-736-595",
+            "address": "41211 Allison Pines\nPort Jennifer, AL 36910",
+            "city": "East Amberchester",
+            "country": "Saint Kitts and Nevis"
         },
-        {
+        "10": {
             "id": 10,
-            "phone": "464-612-32",
-            "address": "807 Brian Mountains Apt. 832\nAllenburgh, GA 78837",
-            "city": "South Shanemouth",
-            "country": "Rwanda"
+            "phone": "889.211.85",
+            "address": "75433 Gallagher Vista Suite 314\nSmithhaven, AK 87612",
+            "city": "Sandrastad",
+            "country": "Canada"
+        },
+        "11": {
+            "id": 11,
+            "phone": "1111",
+            "address": "111",
+            "city": "111",
+            "country": "111"
+        },
+        "12": {
+            "id": 12,
+            "phone": "1111",
+            "address": "111",
+            "city": "111",
+            "country": "111"
         }
-    ],
-    "roles": [
-        {
+    },
+    "roles": {
+        "1": {
             "id": 1,
             "name": "ADMIN"
         },
-        {
+        "2": {
             "id": 2,
             "name": "MANAGER"
         },
-        {
+        "3": {
             "id": 3,
             "name": "CUSTOMER"
         }
-    ],
-    "users": [
-        {
+    },
+    "users": {
+        "1": {
             "id": 1,
-            "first_name": "Megan",
-            "last_name": "Lane",
-            "active": true,
-            "company": "Martin, Cameron and Dixon",
+            "first_name": "Alex",
+            "last_name": "Simmons",
+            "active": false,
+            "company": "Williams, Wu and Reyes",
             "sex": "F",
+            "contact": {
+                "id": 4,
+                "phone": "001-464-23",
+                "address": "106 Aaron Alley Apt. 371\nDylanmouth, PW 90474",
+                "city": "East Melissa",
+                "country": "French Southern Territories"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "hE6nKt9VNx3r3E1"
+        },
+        "2": {
+            "id": 2,
+            "first_name": "Yolanda",
+            "last_name": "Howell",
+            "active": true,
+            "company": "Luna-Booth",
+            "sex": "M",
+            "contact": {
+                "id": 1,
+                "phone": "873.666.63",
+                "address": "362 Charles Spurs Apt. 838\nSouth James, WI 60696",
+                "city": "West Stephenmouth",
+                "country": "Israel"
+            },
+            "role": {
+                "id": 1,
+                "name": "ADMIN"
+            },
+            "username": "vJorw83Y5DdVbpk"
+        },
+        "3": {
+            "id": 3,
+            "first_name": "Susan",
+            "last_name": "Kelly",
+            "active": true,
+            "company": "Davis, Pittman and Ward",
+            "sex": "F",
+            "contact": {
+                "id": 4,
+                "phone": "001-464-23",
+                "address": "106 Aaron Alley Apt. 371\nDylanmouth, PW 90474",
+                "city": "East Melissa",
+                "country": "French Southern Territories"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "SsCFZ0XIR3WDfiz"
+        },
+        "4": {
+            "id": 4,
+            "first_name": "Rhonda",
+            "last_name": "Bowen",
+            "active": false,
+            "company": "Walton Inc",
+            "sex": "M",
+            "contact": {
+                "id": 1,
+                "phone": "873.666.63",
+                "address": "362 Charles Spurs Apt. 838\nSouth James, WI 60696",
+                "city": "West Stephenmouth",
+                "country": "Israel"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "By30uOaK3EXL7cz"
+        },
+        "5": {
+            "id": 5,
+            "first_name": "Diana",
+            "last_name": "Williams",
+            "active": true,
+            "company": "Shields, Camacho and Townsend",
+            "sex": "F",
+            "contact": {
+                "id": 4,
+                "phone": "001-464-23",
+                "address": "106 Aaron Alley Apt. 371\nDylanmouth, PW 90474",
+                "city": "East Melissa",
+                "country": "French Southern Territories"
+            },
+            "role": {
+                "id": 2,
+                "name": "MANAGER"
+            },
+            "username": "gSbhMMLp8nm9Svd"
+        },
+        "6": {
+            "id": 6,
+            "first_name": "Scott",
+            "last_name": "Roberts",
+            "active": false,
+            "company": "Moreno, Bolton and Werner",
+            "sex": "M",
+            "contact": {
+                "id": 1,
+                "phone": "873.666.63",
+                "address": "362 Charles Spurs Apt. 838\nSouth James, WI 60696",
+                "city": "West Stephenmouth",
+                "country": "Israel"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "8aEzPPNDNyUJDWs"
+        },
+        "7": {
+            "id": 7,
+            "first_name": "Sarah",
+            "last_name": "Davis",
+            "active": false,
+            "company": "Weiss-Montes",
+            "sex": "F",
+            "contact": {
+                "id": 4,
+                "phone": "001-464-23",
+                "address": "106 Aaron Alley Apt. 371\nDylanmouth, PW 90474",
+                "city": "East Melissa",
+                "country": "French Southern Territories"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "sypo9CpCZ6r1oL6"
+        },
+        "8": {
+            "id": 8,
+            "first_name": "Melanie",
+            "last_name": "Gibbs",
+            "active": false,
+            "company": "Rogers LLC",
+            "sex": "M",
+            "contact": {
+                "id": 2,
+                "phone": "315-275-39",
+                "address": "1732 Waller Oval Apt. 888\nJonestown, DE 41712",
+                "city": "Emilyville",
+                "country": "Albania"
+            },
+            "role": {
+                "id": 3,
+                "name": "CUSTOMER"
+            },
+            "username": "GdOxM0aG9IlliFs"
+        },
+        "9": {
+            "id": 9,
+            "first_name": "Lisa",
+            "last_name": "Mack",
+            "active": true,
+            "company": "Bennett-Jenkins",
+            "sex": "M",
             "contact": {
                 "id": 8,
-                "phone": "(245)201-1",
-                "address": "17584 Daniels Center Suite 262\nStaceyville, MN 06580",
-                "city": "North Anthony",
-                "country": "Nigeria"
-            },
-            "role": {
-                "id": 2,
-                "name": "MANAGER"
-            },
-            "username": "0epMhjkSNupls9n"
-        },
-        {
-            "id": 2,
-            "first_name": "Erica",
-            "last_name": "Medina",
-            "active": false,
-            "company": "Phillips PLC",
-            "sex": "M",
-            "contact": {
-                "id": 1,
-                "phone": "+1-793-284",
-                "address": "02712 Aaron Garden Suite 539\nLake Michaelland, UT 71241",
-                "city": "North Jennifer",
-                "country": "Ecuador"
-            },
-            "role": {
-                "id": 3,
-                "name": "CUSTOMER"
-            },
-            "username": "ysWGxGxSkfKcn7Z"
-        },
-        {
-            "id": 3,
-            "first_name": "Andrew",
-            "last_name": "Contreras",
-            "active": false,
-            "company": "Maynard, Franklin and Garcia",
-            "sex": "F",
-            "contact": {
-                "id": 5,
-                "phone": "539-711-62",
-                "address": "3283 Solis Stream Suite 453\nNew Kevin, VI 85219",
-                "city": "Santiagobury",
-                "country": "Brazil"
-            },
-            "role": {
-                "id": 3,
-                "name": "CUSTOMER"
-            },
-            "username": "WVgidbqdVGQO7yR"
-        },
-        {
-            "id": 4,
-            "first_name": "Tara",
-            "last_name": "Holmes",
-            "active": true,
-            "company": "Ryan, Hickman and Nelson",
-            "sex": "F",
-            "contact": {
-                "id": 6,
-                "phone": "(331)235-6",
-                "address": "849 Palmer Route Apt. 221\nAshleychester, RI 48409",
-                "city": "Leeland",
-                "country": "Burkina Faso"
-            },
-            "role": {
-                "id": 3,
-                "name": "CUSTOMER"
-            },
-            "username": "CAt8tgn2MdU3ED0"
-        },
-        {
-            "id": 5,
-            "first_name": "Caitlyn",
-            "last_name": "Jimenez",
-            "active": false,
-            "company": "Mcclure, Ingram and Sampson",
-            "sex": "M",
-            "contact": {
-                "id": 3,
-                "phone": "(693)217-6",
-                "address": "6146 Chloe Avenue\nPort Josephmouth, SC 03274",
-                "city": "Beltranberg",
-                "country": "Latvia"
-            },
-            "role": {
-                "id": 2,
-                "name": "MANAGER"
-            },
-            "username": "Mu6wPVa900aEvd4"
-        },
-        {
-            "id": 6,
-            "first_name": "Denise",
-            "last_name": "Gross",
-            "active": true,
-            "company": "Davis-Perez",
-            "sex": "F",
-            "contact": {
-                "id": 5,
-                "phone": "539-711-62",
-                "address": "3283 Solis Stream Suite 453\nNew Kevin, VI 85219",
-                "city": "Santiagobury",
-                "country": "Brazil"
+                "phone": "(805)320-7",
+                "address": "378 Scott Causeway\nEast Nicholashaven, UT 77984",
+                "city": "South Jill",
+                "country": "Guam"
             },
             "role": {
                 "id": 1,
                 "name": "ADMIN"
             },
-            "username": "9b0qw9BTiEhXQvh"
+            "username": "kaEQJHi1CaiHP0H"
         },
-        {
-            "id": 7,
-            "first_name": "Kevin",
-            "last_name": "Townsend",
-            "active": true,
-            "company": "Smith-Martinez",
-            "sex": "F",
-            "contact": {
-                "id": 3,
-                "phone": "(693)217-6",
-                "address": "6146 Chloe Avenue\nPort Josephmouth, SC 03274",
-                "city": "Beltranberg",
-                "country": "Latvia"
-            },
-            "role": {
-                "id": 2,
-                "name": "MANAGER"
-            },
-            "username": "cPaACsNljyNBsgD"
-        },
-        {
-            "id": 8,
-            "first_name": "Heather",
-            "last_name": "Rivas",
-            "active": false,
-            "company": "Estrada, Young and Potts",
-            "sex": "M",
-            "contact": {
-                "id": 7,
-                "phone": "(572)322-9",
-                "address": "3870 Herman Flats Suite 744\nLake Barbara, PA 18657",
-                "city": "Thomasmouth",
-                "country": "Switzerland"
-            },
-            "role": {
-                "id": 1,
-                "name": "ADMIN"
-            },
-            "username": "CxavtLdTKTx5WqO"
-        },
-        {
-            "id": 9,
-            "first_name": "Cheryl",
-            "last_name": "Olson",
-            "active": true,
-            "company": "Davis-Mclaughlin",
-            "sex": "M",
-            "contact": {
-                "id": 9,
-                "phone": "001-757-96",
-                "address": "21384 Banks Crescent Apt. 146\nEast Sethmouth, UT 16182",
-                "city": "New Janetstad",
-                "country": "Slovenia"
-            },
-            "role": {
-                "id": 2,
-                "name": "MANAGER"
-            },
-            "username": "0Qv0NyYmbXyYd1K"
-        },
-        {
+        "10": {
             "id": 10,
-            "first_name": "Angela",
-            "last_name": "Wagner",
-            "active": true,
-            "company": "Sanchez Group",
-            "sex": "M",
+            "first_name": "Sharon",
+            "last_name": "White",
+            "active": false,
+            "company": "Martin-Riddle",
+            "sex": "F",
             "contact": {
-                "id": 10,
-                "phone": "464-612-32",
-                "address": "807 Brian Mountains Apt. 832\nAllenburgh, GA 78837",
-                "city": "South Shanemouth",
-                "country": "Rwanda"
+                "id": 5,
+                "phone": "(985)371-6",
+                "address": "692 Ali Forge Suite 747\nJarvisbury, NV 70728",
+                "city": "North Alexandermouth",
+                "country": "Niue"
+            },
+            "role": {
+                "id": 2,
+                "name": "MANAGER"
+            },
+            "username": "R5ojb4ednHdrYu7"
+        },
+        "11": {
+            "first_name": "asda",
+            "last_name": "rafat",
+            "active": false,
+            "company": "Bailey-Williams",
+            "sex": "F",
+            "id": 11,
+            "role": null,
+            "contact": {
+                "id": 11,
+                "phone": "1111",
+                "address": "111",
+                "city": "111",
+                "country": "111"
+            }
+        },
+        "12": {
+            "first_name": "asda",
+            "last_name": "rafat",
+            "active": false,
+            "company": "Bailey-Williams",
+            "sex": "F",
+            "id": 12,
+            "role": null,
+            "contact": {
+                "id": 12,
+                "phone": "1111",
+                "address": "111",
+                "city": "111",
+                "country": "111"
+            }
+        }
+    },
+    "admin_user": {
+        "11": {
+            "id": 11,
+            "first_name": "Christopher",
+            "last_name": "Jones",
+            "active": true,
+            "company": "Sullivan, Mendez and Frederick",
+            "sex": "F",
+            "contact": {
+                "id": 11,
+                "phone": "+1-363-634",
+                "address": "9209 Nicole Pass\nSouth Ericaview, GU 81728",
+                "city": "Port Sarahville",
+                "country": "Antarctica (the territory South of 60 deg S)"
             },
             "role": {
                 "id": 1,
                 "name": "ADMIN"
             },
-            "username": "Gl4bVlLfpK3OMVn"
+            "username": "admin"
         }
-    ]
+    }
 }
