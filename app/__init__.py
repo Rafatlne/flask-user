@@ -14,15 +14,31 @@ def health_check():
     return {"message": "Application heath is ok."}, 200
 
 
-authorizations = {"apikey": {"type": "apiKey", "in": "header", "name": "Authorization"}}
+authorizations = {
+    "Bearer Auth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "Authorization",
+        "description": "Enter the token with the `Bearer ` prefix, e.g. `Bearer abcde12345`. \n\n"
+                       "To obtain a token, make a POST request to `/auth/` with the following JSON payload: \n\n"
+                       "```\n"
+                       "{\"username\": \"admin\", \"password\": \"admin@123\"}\n"
+                       "```\n"
+    }
+}
 
 api = Api(
     blueprint,
-    title="FLASK CONFIG STORAGE",
+    title="FLASK USER STORAGE",
     version="1.0",
-    description="a flask google storage connection api",
-    # authorizations=authorizations,
-    security="apikey",
+    description="A user flask api \n\n"
+                "To obtain a token, make a POST request to `/auth/` with the following JSON payload: \n\n"
+                "```\n"
+                "{\"username\": \"admin\", \"password\": \"admin@123\"}\n"
+                "```\n"
+    ,
+    authorizations=authorizations,
+    security="Bearer Auth",
     doc="/doc/",
 )
 
