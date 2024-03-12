@@ -32,9 +32,12 @@ api = Api(
     title="FLASK USER STORAGE",
     version="1.0",
     description="A user flask api \n\n"
-                "To obtain a token, make a POST request to `/auth/` with the following JSON payload: \n\n"
+                "To obtain a token, make a POST request to `/auth/` with the following curl example: \n\n"
                 "```\n"
-                "{\"username\": \"admin\", \"password\": \"admin@123\"}\n"
+                "curl -X POST \\\n"
+                "  -H 'Content-Type: application/json' \\\n"
+                "  -d '{\"username\": \"admin\", \"password\": \"admin@123\"}' \\\n"
+                "  http://localhost:8010/auth/\n"
                 "```\n"
     ,
     authorizations=authorizations,
