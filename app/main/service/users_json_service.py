@@ -121,7 +121,7 @@ def create_user(user_json):
     }
 
     users_data.get("users")[user_id] = user_json
-    users_data.get("contacts")[contact_id] = contact
+    users_data.get("contacts")[contact] = contact
     save_users(users_data)
 
     return user_json, 201
