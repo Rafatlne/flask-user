@@ -12,16 +12,17 @@ api = AuthDto.api
 class AuthController(Resource):
 
     @basic_auth.login_required
-    @api.doc('Get list of users')
+    @api.doc(description='Authenticate and get a token', security='Basic Auth')
     def post(self):
-        """Get list of users"""
+        """Authenticate and get a token"""
         token = basic_auth.current_user().get_token(expires_in=86400)
         db.session.commit()
         return jsonify({"token": token})
 
     @token_auth.login_required
-    @api.doc('Get list of users')
+    @api.doc(description='Revoke token')
     def delete(self):
+        """Revoke token"""
         token_auth.current_user().revoke_token()
         db.session.commit()
         return '', 204
