@@ -3,8 +3,13 @@ from flask_restx import Resource
 from marshmallow import ValidationError
 
 from ..schema.json_user_schema import JsonUserDto, JsonUserInfoSchema
-from ..service.users_json_service import load_all_data, save_users, get_next_id, get_all_users, get_object, \
-    get_user_details, update_user, delete_user, create_user
+from ..service.users_json_service import (
+    get_all_users,
+    get_user_details,
+    update_user,
+    delete_user,
+    create_user,
+)
 from ..util.auth import token_auth
 
 api = JsonUserDto.api
@@ -12,15 +17,15 @@ json_userinfo_schema = JsonUserInfoSchema()
 json_userinfos_schema = JsonUserInfoSchema(many=True)
 
 
-@api.route('/')
+@api.route("/")
 class UserList(Resource):
     @token_auth.login_required
-    @api.doc('list_users')
+    @api.doc("list_users")
     def get(self):
         """List all users"""
         return get_all_users()
 
-    @api.doc('create_user')
+    @api.doc("create_user")
     @token_auth.login_required
     def post(self):
         """Create a new user"""
@@ -33,16 +38,16 @@ class UserList(Resource):
         return create_user(user)
 
 
-@api.route('/<int:id>/')
-@api.param('id', 'The user identifier')
+@api.route("/<int:id>/")
+@api.param("id", "The user identifier")
 class User(Resource):
-    @api.doc('get_user')
+    @api.doc("get_user")
     @token_auth.login_required
     def get(self, id):
         """Get a user by ID"""
         return get_user_details(id)
 
-    @api.doc('update_user')
+    @api.doc("update_user")
     @token_auth.login_required
     def put(self, id):
         """Update a user by ID"""
@@ -54,7 +59,7 @@ class User(Resource):
 
         return update_user(id, user_data)
 
-    @api.doc('delete_user')
+    @api.doc("delete_user")
     @token_auth.login_required
     def delete(self, id):
         """Delete a user by ID"""

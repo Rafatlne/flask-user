@@ -4,11 +4,8 @@ from flask_restx import Resource
 from ..model.models import db
 from ..schema.auth_schema import AuthDto
 from ..util.auth import basic_auth, token_auth
-from ..util.user_dto import UserInfoSchema
 
 api = AuthDto.api
-userinfo_schema = UserInfoSchema()
-userinfos_schema = UserInfoSchema(many=True)
 
 
 @api.route("/")
